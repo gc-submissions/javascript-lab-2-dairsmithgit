@@ -53,4 +53,6 @@ function fight(player1, player2, player1health, player2health) {
     }
 }
 
+fight("Aragorn", "Nazgul", 100, 100);
+
 //open spec and run html in browser to show tests

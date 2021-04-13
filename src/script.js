@@ -65,3 +65,12 @@ function printSquare(width) {
         console.log(character.repeat(width));
     }
 }
+
+printTriangle(5);
+function printTriangle(width) {
+    var character = "#";
+    var charLine;
+    for (charLine = 1; charLine <= width; charLine++) {
+        console.log(character.repeat(charLine));
+    }
+}

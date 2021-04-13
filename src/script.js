@@ -55,4 +55,13 @@ function fight(player1, player2, player1health, player2health) {
 
 fight("Aragorn", "Nazgul", 100, 100);
 
-//open spec and run html in browser to show tests
+//extended challenges
+
+printSquare(3);
+function printSquare(width) {
+    var character = "#";
+    var charLine;
+    for (charLine = 0; charLine < width; charLine++) {
+        console.log(character.repeat(width));
+    }
+}
